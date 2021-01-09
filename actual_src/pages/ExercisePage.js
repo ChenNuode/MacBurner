@@ -103,7 +103,6 @@ class ExercisePage extends React.Component {
                     fontSize: 22,
                     textAlign: 'center'
                 }}>Exercises</Text>
-                <Text>{this.state.data}</Text>
                 <SectionList
                 sections={this.state.data}
                 keyExtractor={(item, idx) => item + idx}
